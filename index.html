@@ -5,38 +5,14 @@
     <title>Web Challenge</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mootools/1.6.0/mootools-core.min.js"></script>
     <script src="js/apiClient.js"></script>
     <script src="js/main.js"></script>
 
-    <style>
-      body {
-        font-family: 'Open Sans', sans-serif;
-      }
-      h1 {
-        font-size: 56px;
-      }
-      h3 {
-        font-size: 20px;
-      }
-      #n-primary li {
-        display: inline-block;
-        text-align: left;
-      }
-      a{
-        color:#000;
-      }
-      #content{
-        width: 100%;
-        max-width: 1100px;
-        margin: 0 auto;
-      }
-      .footer {
-        background: #000;
-        color: #FFF;
-        text-align: center;
-      }
-    </style>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
   </head>
@@ -53,22 +29,27 @@
       </div>
 
       <div id="search">
+        <input type="text" placeholder="Search Everywhere">
       </div>
     </div>
 
     <div id="content">
       <div class="banner">
+        <!-- <img src="assets/community-members-background.jpg" width="100%" height="300px"> -->
         <h1>Welcome to the Community</h1>
         <p>Share, connect and collaborate.</p>
       </div>
       <h2>Members</h2>
+      <div class="member-container">
+      </div>
       <!--Insert Members Here -->
 
       <a id="js-btn-action-more" class="btn-load-more" href="#">Load more</a>
     </div>
 
     <div class="footer">
-      <p>Copyright 2016</p>
+      <p>&#169; 2016</p>
+      <img src="assets/community-footer-logo.jpg">
     </div>
 
   </body>
